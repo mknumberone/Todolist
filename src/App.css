@@ -27,7 +27,9 @@
 .App-link {
   color: #61dafb;
 }
-
+.bot-tom{
+  margin-bottom: 20px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +37,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+.mt-15{
+  margin-top: 15px;
+}
+.mr-5{
+  margin-right: 5px;
+}
+.ml-5{
+  margin-left: 5px;
+}
+.pr-5{
+  padding-right: 5px;
+}
+.dropdown-menu .fa::before{
+  padding-right: 10px;
+}
+.text-right{
+  float: right;
+  cursor: pointer;
+}
+.text-right:hover{
+  color: red;
+}
+.fa-check:before {
+  content: "\f00c";
+  float: right;
 }
